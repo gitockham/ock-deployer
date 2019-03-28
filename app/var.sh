@@ -1,17 +1,17 @@
 #!/usr/bin/env bash
 
-BRIDGECHAIN_PATH="/home/$USER/ark-bridgechain"
-EXPLORER_PATH="/home/$USER/ark-explorer"
-CHAIN_NAME="bridgechain"
-DATABASE_NAME="ark_$CHAIN_NAME"
+BRIDGECHAIN_PATH="/home/$USER/ock-blockchain"
+EXPLORER_PATH="/home/$USER/ock-explorer"
+CHAIN_NAME="blockchain"
+DATABASE_NAME="ock_$CHAIN_NAME"
 NODE_IP="0.0.0.0"
 NODE_PORT="4100"
 EXPLORER_IP="127.0.0.1"
 EXPLORER_PORT="4200"
-TOKEN="MINE"
+TOKEN="OCK"
 SYMBOL="M"
 PREFIX="M"
-INSTALL_DEPS="N"
+INSTALL_DEPS="Y"
 SKIP_DEPS="N"
 INTERACTIVE="Y"
 AUTO_FORGER="Y"
@@ -43,7 +43,7 @@ TOTAL_PREMINE=2100000000000000
 MAX_TOKENS_PER_ACCOUNT=12500000000000000
 
 ## Whether to update epoch time for bridgechain
-UPDATE_EPOCH="N"
+UPDATE_EPOCH="Y"
 
 ## Rewards
 ## Start Block Height

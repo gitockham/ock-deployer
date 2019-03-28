@@ -50,7 +50,7 @@ app_install_node()
     createdb "$DATABASE_NAME"
 
     rm -rf "$BRIDGECHAIN_PATH"
-    git clone https://github.com/ArkEcosystem/ark-node.git -b explorer "$BRIDGECHAIN_PATH"
+    git clone https://github.com/gitockham/ock-node.git -b explorer "$BRIDGECHAIN_PATH"
     cd "$BRIDGECHAIN_PATH"
 
     npm install libpq
@@ -72,7 +72,7 @@ app_install_node()
     rm -rf demo
     mkdir demo
     sed -i -e "s/bitcoin/$CHAIN_NAME/g" createGenesisBlock.js
-    sed -i -e "s/var db_name = \"ark_\" + network_name;/var db_name = \"$DATABASE_NAME\";/g" createGenesisBlock.js
+    sed -i -e "s/var db_name = \"ock_\" + network_name;/var db_name = \"$DATABASE_NAME\";/g" createGenesisBlock.js
     sed -i -e "s/for(var i=1; i<52; i++){/for(var i=1; i<$FORGERS_OFFSET; i++){/g" createGenesisBlock.js
     sed -i -e "s/for(var i=0;i<51;i++){/for(var i=0;i<$FORGERS;i++){/g" createGenesisBlock.js
     sed -i -e "s/var totalpremine = 2100000000000000;/var totalpremine = $TOTAL_PREMINE;/g" createGenesisBlock.js

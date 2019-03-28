@@ -40,5 +40,5 @@ process_node_restart()
 process_node_logs()
 {
     cd $BRIDGECHAIN_PATH
-    tail -fn 500 logs/ark.log
+    tail -fn 500 logs/ock.log
 }

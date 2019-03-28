@@ -1,8 +1,8 @@
 {
     "details": {
-        "title": "ARK Bridgechain Deployment script.",
-        "syntax": "bridgechain.sh [argument] [-option]",
-        "author": "Alex Barnsley <alex@ark.io> & Brian Faust <hello@brianfaust.me>",
+        "title": "OCKHAM Blockchain Deployment script.",
+        "syntax": "blockchain.sh [argument] [-option]",
+        "author": "Luc Talarico <ceo@ockham.consulting>",
         "version": "1.1.0"
     },
     "commands": [{

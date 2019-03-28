@@ -16,7 +16,7 @@ app_install_explorer()
 
     DEPLOYER_PATH="$__dir"
     rm -rf "$EXPLORER_PATH"
-    git clone https://github.com/ArkEcosystem/ark-explorer.git "$EXPLORER_PATH" && cd "$EXPLORER_PATH"
+    git clone https://github.com/gitockham/ock-explorer.git "$EXPLORER_PATH" && cd "$EXPLORER_PATH"
     npm install
     npm install connect-history-api-fallback express
     cp "$DEPLOYER_PATH/config/explorer-server.js" "$EXPLORER_PATH/server.js"

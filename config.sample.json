@@ -3,10 +3,10 @@
     "nodePort": 4100,
     "explorerIp": "1.2.3.4",
     "explorerPort": 4200,
-    "chainName": "bridgechain",
-    "token": "MINE",
-    "database": "ark_bridgechain",
-    "symbol": "M",
+    "chainName": "blockchain",
+    "token": "OCK",
+    "database": "ock_blockchain",
+    "symbol": "O",
     "prefix": "M",
     "feeSend": 10000000,
     "feeVote": 100000000,
@@ -21,6 +21,6 @@
     "updateEpoch": false,
     "rewardHeightStart": 75600,
     "rewardPerBlock": 200000000,
-    "bridgechainPath": "/home/vagrant/ark-bridgechain",
-    "explorerPath": "/home/vagrant/ark-explorer"
+    "bridgechainPath": "/home/ockham/ock-blockchain",
+    "explorerPath": "/home/ockham/ock-explorer"
 }
